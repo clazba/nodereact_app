@@ -195,6 +195,7 @@ function startTestServer() {
 
 function startDistServer() {
   server.init({
+    open: false,
     notify: false,
     port,
     server: {
