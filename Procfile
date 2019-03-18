@@ -1,1 +1,1 @@
-web: npm serve:dist
+web: cross-env NODE_ENV=production gulp serve
