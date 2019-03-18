@@ -178,6 +178,7 @@ function startTestServer() {
   server.init({
     notify: false,
     port,
+    ui: false,
     server: {
       baseDir: 'test',
       routes: {
@@ -194,7 +195,6 @@ function startTestServer() {
 
 function startDistServer() {
   server.init({
-    ui: false,
     notify: false,
     port,
     server: {
