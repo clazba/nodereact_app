@@ -178,7 +178,6 @@ function startTestServer() {
   server.init({
     notify: false,
     port,
-    ui: false,
     server: {
       baseDir: 'test',
       routes: {
