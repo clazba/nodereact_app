@@ -1,1 +1,1 @@
-web: cross-env NODE_ENV=production gulp serve
+web: npm start
