@@ -44,13 +44,12 @@
       </div>
     </div>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- Google reCAPTCHA V3 -->
       <script src="https://www.google.com/recaptcha/api.js?render=6LfqepgUAAAAAJSUEYK5RQEAcYRsk37zhj4BsTI8"></script>
   <script>
   grecaptcha.ready(function() {
       grecaptcha.execute('6LfqepgUAAAAAJSUEYK5RQEAcYRsk37zhj4BsTI8', {action: 'homepage'}).then(function(token) {
          const Url='https://api-rest2.herokuapp.com/validations'
-         const access_token='Ao7uccgX9avejrQ44GokpWkI1fBD2nlf"
          $.ajax({
           url: Url,
           type: "POST",
