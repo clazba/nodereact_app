@@ -56,7 +56,7 @@
   <script>
   grecaptcha.ready(function() {
       grecaptcha.execute('6LfqepgUAAAAAJSUEYK5RQEAcYRsk37zhj4BsTI8', {action: 'homepage'}).then(function(token) {
-         const Url='https://api-rest2.herokuapp.com/validations'
+         const Url='https://rest-api2.herokuapp.com/validations'
          $.ajax({
           url: Url,
           type: "POST",
